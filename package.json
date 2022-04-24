@@ -32,8 +32,7 @@
   },
   "lint-staged": {
     "*.{ts,css,md,vue}": [
-      "eslint",
-      "prettier --check"
+      "eslint src --ext vue,ts"
     ]
   }
 }
